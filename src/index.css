@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  height: 60px;
+  width: 100%;
+  background-color: #282c34;
+  /* color: cadetblue; */
+}
+.header-content{
+  position: relative;
+  top: 25%;
+  width: 960px;
+  margin: 0 auto;
+}
+.header-title{
+  text-align: left;
+  color: antiquewhite;
+  font-size: calc(10px + 2vmin);
+  font-family: sans-serif;
+}
+.content{
+  width: 960px;
+  margin: 0 auto;
+}
+.add{
+  margin-top: 10px;
+  width: inherit;
+  height: 40px;
+
+}
+.addTodo{
+  height: 100%;
+  width: 600px;
+  text-indent: 10%;
+  border-radius: 5px;
+  text-indent: 10px;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+  border: none;
+}
+
+
